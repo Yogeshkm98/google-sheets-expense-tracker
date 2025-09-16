@@ -1,0 +1,79 @@
+# ===================================================================
+# A comprehensive .gitignore file
+# For more templates, see: https://github.com/github/gitignore
+# ===================================================================
+
+# Environment variables
+# Never commit these files! They often contain sensitive credentials.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+
+# Dependencies / Packages
+# These should be installed by a package manager (like npm, pip, etc.)
+/node_modules
+/vendor
+/bower_components
+
+# Build output / Compiled files
+/build
+/dist
+/out
+/public
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & Editor directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Language Specific
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+/venv/
+/virtualenv/
+/env/
+*.egg-info/
+.pytest_cache/
+
+# --- Node.js ---
+/coverage
+.npm
+.eslintcache
+
+# --- Java ---
+*.class
+*.jar
+*.war
+*.ear
+
+# Compressed files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Other
+.cache
